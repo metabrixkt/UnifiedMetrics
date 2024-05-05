@@ -24,8 +24,8 @@ plugins {
     kotlin("plugin.serialization") version "2.0.0" apply false
     id("com.github.johnrengelman.shadow") version "8.1.1" apply false
 
-    // The fabric-loom plugin must be defined in the root project for it to function properly.
-    id("fabric-loom") version "1.7.2" apply false
+//    // The fabric-loom plugin must be defined in the root project for it to function properly.
+//    id("fabric-loom") version "1.7.2" apply false
 }
 
 allprojects {
